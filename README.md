@@ -17,7 +17,7 @@ Improvado Back-end test task for Junior Developer: VK get friends report (2023)
 2. В найстройках зарегестрированного приложения включить `Open API` и указать адресс сайта и базовый домен как `localhost`
 3. В настройках приложения поменять `Состояние` на `Приложение включено и видно всем`
 4. Сформировать запрос, указав ID приложения, получать в настройках приложения
->https://oauth.vk.com/authorize?client_id=`id_here`&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=friends,offline&response_type=token&v=5.131&revoke=1
+>https://oauth.vk.com/authorize?client_id=XXXXXXX&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=friends,offline&response_type=token&v=5.131&revoke=1
 
 ## Использованные VK API эндпоинты
 * `users.get` используется для получения информации о пользователях, в данной работе используется для получения числового идентификатора пользователя
